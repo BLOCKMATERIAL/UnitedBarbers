@@ -1,0 +1,190 @@
+
+
+
+.start{
+    height: 100vh;
+    background: url('../img/background.svg') no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+
+  .center{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%);
+  }
+
+
+ .col-md-4{
+     text-align: center;
+ }
+
+
+ .street{
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+ }
+ 
+.street:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+
+.telephone{
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+ }
+ 
+.telephone:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+
+.instagram{
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+ }
+ 
+.instagram:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+
+.design-label {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.booking{
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+ }
+ 
+.booking:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+
+
+
+
+   
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 84px;
+  }
+
+  .mobilelogo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobiletelephone{
+      padding-bottom: 13px;
+  }
+
+  .mobilestreet{
+      padding-bottom: 20px;
+  }
+  .first{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 22px;
+  }
+
+  .second{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 78px;
+  }
+
+
+  .col-12{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+       div.instagram {
+           display: none;} 
+        div.telephone {
+            display: none;}      
+        div.booking {
+            display: none;} 
+         div.street {
+            display: none;} 
+        div.logo {
+            display: none;
+        }
+        div.second{
+            margin-bottom: 55px;
+        }
+	div.design-label{
+	    display:none;
+}
+    }
+
+    @media screen and (min-width: 767px) {
+        .mobilestreet {
+            display: none;
+        } 
+        .mobiletelephone {
+            display: none;
+        }
+        .mobileinstagram {
+            display: none;
+        }
+        .mobilebooking{
+            display: none;
+        }
+        .mobilelogo{
+            display: none;
+        }
+     }
+
+     /* .mobilephone{
+         display: none;
+     } */
